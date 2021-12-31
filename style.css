@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background: white;
+    box-shadow: 0px 2px 2px rgba(184, 182, 182, 0.527);
+}
+
+img {
+    height: 75px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: darkmagenta;
+    padding-bottom: 10px;
+}
+
+main {
+    padding: 15px;
+    margin: 15px;
+    background: white;
+    color: rgb(85, 84, 84);
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px rgba(184, 182, 182, 0.527);
+
+}
+h2 {
+    font-weight: normal;
+}
+table {
+    width: 100%;
+    margin: 20px auto;
+}
+
+th, td {
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+footer {
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+
+@media (min-width: 630px) {
+    .virsus {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 0px 45px; */
+    
+
+        width: 620px;
+        margin: 0 auto;
+    }
+   
+    
+    a {
+        display: inline-block;
+        padding-left: 10px;
+    }
+ .turinys {
+        width: 620px;
+        margin: 0 auto;
+
+    }
+
+}
